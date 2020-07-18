@@ -8,7 +8,7 @@ Take note: naming convention for this folder is as such: `challengeName.md` so f
 
 CTF WriteUps:
 - [x] Hextroadinary (ctflearn.com) -- Evangeline
-- [ ] The Simpsons (ctflearn.com) -- Hongshuo
+- [x] The Simpsons (ctflearn.com) -- Hongshuo
 
 ---
 
