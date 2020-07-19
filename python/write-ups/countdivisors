@@ -1,0 +1,31 @@
+# Count Divisors
+
+**Question link:** 
+https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/count-divisors/submissions/
+
+**Question description:**
+You have been given 3 integers - l, r and k. Find how many numbers between l and r (both inclusive) are divisible by k. You do not need to print these numbers, you just have to find their count.
+
+Input Format
+The first and only line of input contains 3 space separated integers l, r and k.
+
+Output Format
+Print the required answer on a single line.
+
+Constraints
+1 <= l <= r <= 1000
+1 <= k <= 1000
+**Question solution:**
+
+num = str(input())
+x = num.split(" ") # splits input string into list
+l = int(x[0])
+r = int(x[1])
+k = int(x[2])
+
+if l >= 1 and 1 <= r and r <= 1000 and k >= 1 and k <= 1000:
+    count = 0
+    for i in range (l, r+1): # numbers between l and r
+        if i%k == 0:
+            count += 1
+print(count)
